@@ -1,0 +1,7 @@
+<div class="input">
+    <h2>Enter your name</h2>
+    <input type="text" name="" id="" placeholder="Name" (input)="inputChange($event)">
+    @if (name() !== "") {
+        <p>Hello, {{name()}}</p>
+    }
+</div>

@@ -1,0 +1,12 @@
+.counter {
+    padding: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & > div {
+        margin-top:1rem;
+        display: Flex;
+        gap: 0.5rem;
+    }
+}
